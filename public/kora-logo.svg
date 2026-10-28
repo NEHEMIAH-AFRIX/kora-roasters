@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" width="100%" height="100%">
+  <title>KORA Roasters — Concept 2: Upgraded Point-of-Origin Lockup</title>
+  <desc>Bespoke stacked identity lockup featuring a calligraphic point-of-origin symbol above custom-drawn high-contrast serif KORA letterforms and optically centered ROASTERS subline in espresso #2C211E.</desc>
+  <g fill="#2C211E">
+    <!-- 1. RE-SCULPTED CALLIGRAPHIC POINT-OF-ORIGIN SYMBOL (centered at x=500, y=124) -->
+    <!-- Rotated -18 deg so its thick-thin crescent modulation harmonizes with the calligraphic stress of the serif 'O' below -->
+    <g transform="translate(500, 124) rotate(-18)">
+      <!-- Outer Symmetrical Calligraphic Crescent Arcs (r_out=45, inner ellipse rx=35.5, ry=41.5) -->
+      <path d="M -9.36,44.02 A 45,45 0 0,1 -9.36,-44.02 L -7.38,-40.59 A 35.5,41.5 0 0,0 -7.38,40.59 Z" />
+      <path d="M 9.36,-44.02 A 45,45 0 0,1 9.36,44.02 L 7.38,40.59 A 35.5,41.5 0 0,0 7.38,-40.59 Z" />
+
+      <!-- Inner Unbroken Calligraphic Ring (outer circle r=25.5, inner ellipse rx=19.5, ry=22.5) -->
+      <path fill-rule="evenodd" d="
+        M 0,-25.5 A 25.5,25.5 0 1,1 0,25.5 A 25.5,25.5 0 1,1 0,-25.5 Z
+        M 0,-22.5 A 19.5,22.5 0 1,0 0,22.5 A 19.5,22.5 0 1,0 0,-22.5 Z" />
+
+      <!-- Central Origin Point -->
+      <circle cx="0" cy="0" r="9.5" />
+    </g>
+
+    <!-- 2. BESPOKE HIGH-CONTRAST EDITORIAL SERIF WORDMARK: K O R A (centered optically at x=500, y=206..320) -->
+    <g id="kora-custom-wordmark">
+      <!-- LETTER K (x=254..358) -->
+      <path d="
+        M 254,206 L 295,206 L 295,209.5
+        C 286,209.5 284,211.5 284,218
+        L 284,261
+        L 328,217
+        C 332,213 332,209.5 324,209.5
+        L 324,206 L 354,206 L 354,209.5
+        C 345,209.5 340,212.5 334,218.5
+        L 300,252
+        L 344,309
+        C 348,314 352,316.5 359,316.5
+        L 359,320 L 320,320 L 320,316.5
+        C 327,316.5 328,314 325,310
+        L 289,263
+        L 284,268
+        L 284,308
+        C 284,314.5 286,316.5 295,316.5
+        L 295,320 L 254,320 L 254,316.5
+        C 263,316.5 266,314.5 266,308
+        L 266,218
+        C 266,211.5 263,209.5 254,209.5
+        Z" />
+
+      <!-- LETTER O (cx=434, cy=263, rx_out=52, ry_out=59, tilted calligraphic counter matching symbol above) -->
+      <path fill-rule="evenodd" d="
+        M 434,204
+        C 465,204 486,229 486,263
+        C 486,297 465,322 434,322
+        C 403,322 382,297 382,263
+        C 382,229 403,204 434,204 Z
+        M 431,209.5
+        C 410,210.5 400,232 401,265
+        C 402,296 415,315.5 437,316.5
+        C 458,315.5 468,294 467,261
+        C 466,230 453,210.5 431,209.5 Z" />
+
+      <!-- LETTER R (x=512..616) -->
+      <path fill-rule="evenodd" d="
+        M 512,206 L 560,206
+        C 587,206 602,217 602,235
+        C 602,251 589,262 570,265
+        L 602,309
+        C 606,314.5 610,316.5 617,316.5
+        L 617,320 L 587,320
+        C 584,315 580,309 576,303
+        L 553,267 L 542,267 L 542,308
+        C 542,314.5 545,316.5 554,316.5
+        L 554,320 L 512,320 L 512,316.5
+        C 521,316.5 524,314.5 524,308
+        L 524,218
+        C 524,211.5 521,209.5 512,209.5 Z
+        M 542,211.5 L 542,261.5 L 556,261.5
+        C 575,261.5 583,252 583,236
+        C 583,220 574,211.5 556,211.5 Z" />
+
+      <!-- LETTER A (Optically kerned closer to R's tail: x=628..742, apex at x=685) -->
+      <path fill-rule="evenodd" d="
+        M 682,204 L 688,204
+        L 728,308
+        C 730.5,314.5 734,316.5 742,316.5
+        L 742,320 L 699,320 L 699,316.5
+        C 708,316.5 710,314.5 708,308.5
+        L 699,284 L 662,284
+        L 653,308.5
+        C 651,314.5 654,316.5 663,316.5
+        L 663,320 L 627,320 L 627,316.5
+        C 635,316.5 639,314 642,307
+        Z
+        M 680.5,222 L 664,278 L 697,278 Z" />
+    </g>
+
+    <!-- 3 & 4. OPTICALLY CENTERED SUBLINE (No floating dash; individual glyph coordinates locked around x=500) -->
+    <g
+      font-family="'Avenir Next', Futura, 'Century Gothic', 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif"
+      font-size="17.5"
+      font-weight="600"
+      text-anchor="middle"
+    >
+      <text x="381" y="376">R</text>
+      <text x="415" y="376">O</text>
+      <text x="449" y="376">A</text>
+      <text x="483" y="376">S</text>
+      <text x="517" y="376">T</text>
+      <text x="551" y="376">E</text>
+      <text x="585" y="376">R</text>
+      <text x="619" y="376">S</text>
+    </g>
+  </g>
+</svg>

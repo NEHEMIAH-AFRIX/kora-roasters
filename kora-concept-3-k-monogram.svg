@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <title>KORA Roasters — Concept 3: Standalone Sculptural K Monogram</title>
+  <desc>Standalone custom geometric K monogram with balanced negative space, subtle sculptural curves, and high small-size legibility in espresso #2C211E on a transparent background.</desc>
+  <g fill="#2C211E">
+    <!-- Left Architectural Stem (x=126 to x=194, y=110 to y=390) with subtle sculpted top-left and bottom-left radii -->
+    <path d="M 146,110 L 194,110 L 194,390 L 146,390 A 20,20 0 0,1 126,370 L 126,130 A 20,20 0 0,1 146,110 Z" />
+
+    <!-- Right Sculpted Chevron of the 'K' (separated from stem by an 18px negative-space channel at x=212) -->
+    <!-- Features crisp diagonal arms, a smooth r=24 concave inner waist to prevent small-size ink trapping, and a subtle architectural cut -->
+    <path d="M 212,228 L 298,110 L 370,110 L 282,229 A 22,22 0 0,0 282,257 L 374,390 L 300,390 L 212,262 Z" />
+  </g>
+</svg>

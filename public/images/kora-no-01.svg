@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="95 68 410 536" width="100%" height="100%">
+  <title>KORA No. 01 — 250g Coffee Bag Concept Illustration</title>
+  <!-- Multi-layered subtle studio contact shadow on plinth -->
+  <ellipse cx="300" cy="574" rx="154" ry="13" fill="#DFDBD2" />
+  <ellipse cx="300" cy="573" rx="116" ry="7.5" fill="#D2CDC2" />
+
+  <!-- Coffee Pouch Outer Silhouette (Warm Uncoated Matte Ivory) -->
+  <path
+    d="M 168,92 L 432,92 L 448,554 A 14,14 0 0,1 434,568 L 166,568 A 14,14 0 0,1 152,554 Z"
+    fill="#FAF8F4"
+    stroke="#2C211E"
+    stroke-width="2.2"
+  />
+
+  <!-- Tactile Side Gusset Fold Lines (Left & Right) -->
+  <path d="M 176,94 L 164,566" stroke="#E5E0D6" stroke-width="1.5" fill="none" />
+  <path d="M 424,94 L 436,566" stroke="#E5E0D6" stroke-width="1.5" fill="none" />
+
+  <!-- Top Heat-Seal Crimp Ridges -->
+  <line x1="168" y1="106" x2="432" y2="106" stroke="#EAE6DD" stroke-width="1.2" />
+  <line x1="169" y1="116" x2="431" y2="116" stroke="#EAE6DD" stroke-width="1.2" />
+  <line x1="169" y1="128" x2="431" y2="128" stroke="#D5CFC4" stroke-width="1.8" />
+  <line x1="171" y1="144" x2="429" y2="144" stroke="#2C211E" stroke-width="1.4" stroke-dasharray="4,4" />
+
+  <!-- One-Way Valve -->
+  <circle cx="300" cy="176" r="10.5" fill="#F4F1EA" stroke="#B8B1A6" stroke-width="1.3" />
+  <circle cx="300" cy="176" r="2.2" fill="#8C857B" />
+  <circle cx="294" cy="176" r="1" fill="#B8B1A6" />
+  <circle cx="306" cy="176" r="1" fill="#B8B1A6" />
+
+  <!-- Recessed Label Outer Shadow Line -->
+  <rect x="195" y="213" width="212" height="304" rx="3" fill="#EAE5DC" />
+
+  <!-- Front Minimalist Cotton-Stock Label -->
+  <rect
+    x="194"
+    y="211"
+    width="212"
+    height="304"
+    rx="3"
+    fill="#F4F1EA"
+    stroke="#2C211E"
+    stroke-width="1.8"
+  />
+  <rect
+    x="201"
+    y="218"
+    width="198"
+    height="290"
+    rx="1.5"
+    fill="none"
+    stroke="#D5CFC4"
+    stroke-width="1"
+  />
+
+  <!-- Approved KORA Point-of-Origin Symbol on Label (Transparent background, #2C211E) -->
+  <g transform="translate(300, 260) scale(0.46) rotate(-18)" fill="#2C211E">
+    <path d="M -9.36,44.02 A 45,45 0 0,1 -9.36,-44.02 L -7.38,-40.59 A 35.5,41.5 0 0,0 -7.38,40.59 Z" />
+    <path d="M 9.36,-44.02 A 45,45 0 0,1 9.36,44.02 L 7.38,40.59 A 35.5,41.5 0 0,0 7.38,-40.59 Z" />
+    <path
+      fill-rule="evenodd"
+      d="M 0,-25.5 A 25.5,25.5 0 1,1 0,25.5 A 25.5,25.5 0 1,1 0,-25.5 Z M 0,-22.5 A 19.5,22.5 0 1,0 0,22.5 A 19.5,22.5 0 1,0 0,-22.5 Z"
+    />
+    <circle cx="0" cy="0" r="9.5" />
+  </g>
+
+  <!-- Bespoke KORA Serif Logotype on Bag Label -->
+  <g transform="translate(179, 224) scale(0.245)" fill="#2C211E">
+    <path d="M 254,206 L 295,206 L 295,209.5 C 286,209.5 284,211.5 284,218 L 284,261 L 328,217 C 332,213 332,209.5 324,209.5 L 324,206 L 354,206 L 354,209.5 C 345,209.5 340,212.5 334,218.5 L 300,252 L 344,309 C 348,314 352,316.5 359,316.5 L 359,320 L 320,320 L 320,316.5 C 327,316.5 328,314 325,310 L 289,263 L 284,268 L 284,308 C 284,314.5 286,316.5 295,316.5 L 295,320 L 254,320 L 254,316.5 C 263,316.5 266,314.5 266,308 L 266,218 C 266,211.5 263,209.5 254,209.5 Z" />
+    <path fill-rule="evenodd" d="M 434,204 C 465,204 486,229 486,263 C 486,297 465,322 434,322 C 403,322 382,297 382,263 C 382,229 403,204 434,204 Z M 431,209.5 C 410,210.5 400,232 401,265 C 402,296 415,315.5 437,316.5 C 458,315.5 468,294 467,261 C 466,230 453,210.5 431,209.5 Z" />
+    <path fill-rule="evenodd" d="M 512,206 L 560,206 C 587,206 602,217 602,235 C 602,251 589,262 570,265 L 602,309 C 606,314.5 610,316.5 617,316.5 L 617,320 L 587,320 C 584,315 580,309 576,303 L 553,267 L 542,267 L 542,308 C 542,314.5 545,316.5 554,316.5 L 554,320 L 512,320 L 512,316.5 C 521,316.5 524,314.5 524,308 L 524,218 C 524,211.5 521,209.5 512,209.5 Z M 542,211.5 L 542,261.5 L 556,261.5 C 575,261.5 583,252 583,236 C 583,220 574,211.5 556,211.5 Z" />
+    <path fill-rule="evenodd" d="M 682,204 L 688,204 L 728,308 C 730.5,314.5 734,316.5 742,316.5 L 742,320 L 699,320 L 699,316.5 C 708,316.5 710,314.5 708,308.5 L 699,284 L 662,284 L 653,308.5 C 651,314.5 654,316.5 663,316.5 L 663,320 L 627,320 L 627,316.5 C 635,316.5 639,314 642,307 Z M 680.5,222 L 664,278 L 697,278 Z" />
+  </g>
+  <text x="302" y="319" text-anchor="middle" fill="#2C211E" font-family="Arial, sans-serif" font-size="6.5" font-weight="700" letter-spacing="4.5">ROASTERS</text>
+
+  <!-- Label Architectural Spec Rules -->
+  <line x1="218" y1="338" x2="382" y2="338" stroke="#2C211E" stroke-width="1" />
+  <text x="300" y="356" text-anchor="middle" fill="#736B65" font-family="Arial, sans-serif" font-size="7.5" font-weight="700" letter-spacing="2">PACKAGED COFFEE CONCEPT</text>
+  <text x="300" y="392" text-anchor="middle" fill="#2C211E" font-family="Georgia, serif" font-size="26" font-weight="700" letter-spacing="2">NO. 01</text>
+
+  <rect x="234" y="408" width="132" height="24" rx="2.5" fill="#2C211E" />
+  <text x="300" y="424" text-anchor="middle" fill="#FAF8F4" font-family="Arial, sans-serif" font-size="9" font-weight="700" letter-spacing="2">MEDIUM ROAST</text>
+
+  <line x1="218" y1="452" x2="382" y2="452" stroke="#D5CFC4" stroke-width="1" />
+  <text x="218" y="472" text-anchor="start" fill="#544D49" font-family="Arial, sans-serif" font-size="8.5" font-weight="700" letter-spacing="1">NET WEIGHT</text>
+  <text x="382" y="472" text-anchor="end" fill="#2C211E" font-family="Arial, sans-serif" font-size="8.5" font-weight="700" letter-spacing="1">250 G</text>
+  <text x="300" y="494" text-anchor="middle" fill="#736B65" font-family="Arial, sans-serif" font-size="7.5" letter-spacing="1.2">SINGLE-SKU · ILLUSTRATIVE</text>
+</svg>

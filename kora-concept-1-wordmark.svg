@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" width="100%" height="100%">
+  <title>KORA Roasters — Concept 1: Architectural Typographic Wordmark</title>
+  <desc>Bold architectural geometric sans-serif wordmark for KORA Roasters with refined proportions, precision datum rules, and widely tracked ROASTERS subline in espresso #2C211E on a transparent background.</desc>
+  <g fill="#2C211E">
+    <!-- Primary Architectural Wordmark: KORA -->
+    <text
+      x="509"
+      y="246"
+      text-anchor="middle"
+      font-family="Futura, 'Avenir Next', 'Century Gothic', 'Gill Sans', 'Helvetica Neue', Arial, sans-serif"
+      font-size="164"
+      font-weight="800"
+      letter-spacing="18"
+    >KORA</text>
+
+    <!-- Architectural Split Datum Rules with Central Origin Gap -->
+    <rect x="252" y="290" width="232" height="3.5" />
+    <rect x="516" y="290" width="232" height="3.5" />
+
+    <!-- Secondary Descriptor: Widely Tracked Capitals -->
+    <text
+      x="510"
+      y="342"
+      text-anchor="middle"
+      font-family="'Avenir Next', Futura, 'Century Gothic', 'Helvetica Neue', Arial, sans-serif"
+      font-size="21"
+      font-weight="700"
+      letter-spacing="20"
+    >ROASTERS</text>
+  </g>
+</svg>
